@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in touch with Jordan Bennett — Customer Service Specialist." />
+  <title>Contact — Jordan Bennett</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== Navigation ========== -->
+  <header class="navbar">
+    <nav class="nav-wrapper" aria-label="Primary navigation">
+      <a href="index.html" class="logo">
+        <span class="logo-dot"></span>Jordan Bennett
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== Contact Section ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">Let's Talk</span>
+          <h1 class="section-title">Get in Touch</h1>
+          <p class="section-subtitle">
+            Have a customer experience challenge, a project idea, or just want to say hello?
+            I'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-wrap">
+          <!-- Contact Info -->
+          <aside class="contact-info fade-up delay-1">
+            <h2>Happy to hear from you.</h2>
+            <p>
+              Whether you're a startup building your first support team or an established brand
+              looking to level up your CX, I'm always up for a good conversation. Fill out the form
+              or reach out directly — I reply within 24 hours.
+            </p>
+
+            <div class="contact-detail">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>hello@jordanbennett.com</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>Available worldwide · Remote</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4>Hours</h4>
+                <p>Mon – Fri · 9 AM to 6 PM</p>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Contact Form -->
+          <form class="contact-form fade-up delay-2" action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you! Your message has been received. I will reply within 24 hours.'); this.reset();">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a topic…</option>
+                <option value="consulting">CX Consulting</option>
+                <option value="hiring">Hiring / Job Opportunity</option>
+                <option value="collab">Collaboration</option>
+                <option value="other">Something Else</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Tell me a little about what you're working on…" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn">Send Message →</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Jordan Bennett</h3>
+          <p>Customer Service Specialist passionate about creating experiences people remember for the right reasons.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="mailto:hello@jordanbennett.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Jordan Bennett. Crafted with care. · ISMS 121 Portfolio Project
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
