@@ -1,10 +1,10 @@
-# Atofarati — Customer Service Portfolio
+# Atofarati Oluwatofarati Jinadu — Customer Service Portfolio
 
-This portfolio presents the professional profile of **Atofarati**, a Customer Service Specialist with a strong focus on client satisfaction, problem resolution, and service excellence. It showcases practical experience, core competencies, and selected work that demonstrate the ability to deliver high-quality customer support in fast-paced environments.
+This portfolio presents the professional profile of **Atofarati Oluwatofarati Jinadu**, a Customer Service Specialist with a strong focus on client satisfaction, problem resolution, and service excellence. It showcases practical experience, core competencies, and selected work that demonstrate the ability to deliver high-quality customer support in fast-paced environments.
 
 ## 👤 About the Client
 
-Atofarati is a dedicated customer service professional skilled in managing customer interactions, resolving issues efficiently, and maintaining positive client relationships. With a results-driven mindset, Jordan combines communication expertise with a structured approach to service delivery.
+Atofarati Oluwatofarati Jinadu is a dedicated customer service professional skilled in managing customer interactions, resolving issues efficiently, and maintaining positive client relationships. With a results-driven mindset, Jordan combines communication expertise with a structured approach to service delivery.
 
 ## 💼 Professional Highlights
 
@@ -45,7 +45,7 @@ Each project reflects a practical, results-oriented approach to customer service
 
 ## 📬 Contact
 
-Atofarati is open to opportunities in customer service, client support, and related roles.
+Atofarati Oluwatofarati Jinadu is open to opportunities in customer service, client support, and related roles.
 
 For inquiries, collaborations, or employment opportunities, please use the contact section provided in the portfolio.
 
