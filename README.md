@@ -42,7 +42,7 @@ portfolio/
 3. Go to your repo's **Settings → Pages**.
 4. Under **"Branch"**, select `main` (or `master`) and folder `/ (root)`, then click **Save**.
 5. Wait ~1 minute. Your site will be live at:
-   `https://<your-username>.github.io/<repo-name>/`
+   `https://github.com/tofsjinadu/Customer_Service_Portfolio`
 
 ## 🎨 Design Notes
 
